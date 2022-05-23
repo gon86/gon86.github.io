@@ -548,8 +548,17 @@ body {
     background-color: rgb(46, 134, 216);
 }
 
-#popup-trabajos a.enlace-trabajo {
+#popup-trabajos a.enlace-trabajo, #popup-trabajos a.enlace-codigo {
     margin-top: 10px;
+}
+
+#popup-trabajos a.enlace-codigo {
+    background-color: rgba(80, 80, 80, 0.8);
+    padding: 14px;
+}
+
+#popup-trabajos a.enlace-codigo:hover {
+    background-color: rgba(80, 80, 80, 0.7);
 }
 
 #b-cv, #popup-trabajos a.enlace-trabajo {
