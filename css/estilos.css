@@ -659,6 +659,16 @@ button:disabled {
     }
 }
 
+.bloque-trabajo {
+    background-color: rgba(196, 196, 196, 0.5);
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+.bloque-trabajo .destacado {
+    overflow-wrap: break-word;
+}
+
 @media(min-width: 500px){
     #entorno {
         top: calc(50% - 140px);
