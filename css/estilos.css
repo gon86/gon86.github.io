@@ -526,10 +526,6 @@ body {
     margin-left: -34px;
 }
 
-#whatsapp {
-    background-image: url("../imagenes/whatsapp.png");
-}
-
 .popup button:not(.b-cerrar) {
     color: white;
     width: 100%;
