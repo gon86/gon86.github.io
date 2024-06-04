@@ -2,7 +2,7 @@
 export const GestorRecursos = iniciarRecursos();
 
 function iniciarRecursos(){
-    const imagenes = ["email.png", "estudios.png", "experiencia.png", "informacion.png", "trabajos.png", "ubicacion.png", "whatsapp.png"];
+    const imagenes = ["email.png", "estudios.png", "experiencia.png", "informacion.png", "trabajos.png", "ubicacion.png"];
     const imagenesCargadas = [];
     let cantidadImagenesCargadas = 0;
 
