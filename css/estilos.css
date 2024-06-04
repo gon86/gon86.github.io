@@ -516,14 +516,6 @@ body {
     background-color: rgba(218, 10, 10, 0.7);
 }
 
-#b-whatsapp {
-    background-color: rgba(69, 168, 11, 0.8);
-}
-
-#b-whatsapp:hover {
-    background-color: rgba(69, 168, 11, 0.7);
-}
-
 #ubicacion {
     background-image: url("../imagenes/ubicacion.png");
     margin-left: -10px;
