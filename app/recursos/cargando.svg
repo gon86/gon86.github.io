@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="150" height="50" viewBox="0 0 150 50" xml:space="preserve">
+<desc>Animación de carga</desc>
+<defs>
+	<rect id="cuadrado1" width="50" height="50" y="0" transform-origin="25 25" opacity="0.2" fill="rgb(35,153,178)">
+		<animate
+			attributeName="opacity"
+			values="0.2;1;0.2"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+		<animateTransform
+			attributeName="transform"
+			attributeType="XML"
+			type="scale"
+			values="0.5 0.5;1 1;0.5 0.5"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+	</rect>
+	<rect id="cuadrado2" width="50" height="50" y="0" transform-origin="25 25" opacity="1" fill="rgb(35,153,178)">
+		<animate
+			attributeName="opacity"
+			values="1;0.2;1"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+		<animateTransform
+			attributeName="transform"
+			attributeType="XML"
+			type="scale"
+			values="1 1;0.5 0.5;1 1"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+	</rect>
+	<rect id="cuadrado3" width="50" height="50" y="0" transform-origin="25 25" opacity="0.2" fill="rgb(35,153,178)">
+		<animate
+			attributeName="opacity"
+			values="0.2;1;0.2"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+		<animateTransform
+			attributeName="transform"
+			attributeType="XML"
+			type="scale"
+			values="0.5 0.5;1 1;0.5 0.5"
+			dur="1s"
+			repeatCount="indefinite"
+		/>
+	</rect>
+</defs>
+<use href="#cuadrado1" x="0" />
+<use href="#cuadrado2" x="50" />
+<use href="#cuadrado3" x="100" />
+</svg>
