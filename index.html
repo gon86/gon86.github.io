@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preload" href="assets/fonts/Genos-Regular.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg" />
+    <link rel="stylesheet" href="assets/index.css">
+    <script src="assets/index.js" defer></script>
+    <title>Portfolio</title>
+</head>
+<body>
+	<div id="fondo"></div>
+	<div class="degradado dv"></div>
+	<div class="degradado dh"></div>
+
+	<div id="cargando" class="cargando-flex">
+		<span>Cargando</span>
+		<div class="punto"></div>
+		<div class="punto"></div>
+		<div class="punto"></div>
+	</div>
+
+	<div id="contenedor-principal" class="oculto">
+		<div id="contenedor-superior" class="contenedor">
+			<header id="encabezado">
+				<div id="encabezado-icono" class="animacion-generica">
+					<img id="icono-person" src="assets/images/person.svg" />
+					<div>
+						<div>Gonzalo Vidal</div>
+						<div id="programador">Programador web</div>
+					</div>
+				</div>
+				<div id="encabezado-ubicacion-bottom" class="animacion-generica">Mendoza, Argentina</div>
+				<div id="encabezado-ubicacion-right" class="animacion-generica">
+					<div>Mendoza</div>
+					<div>Argentina</div>
+				</div>
+			</header>
+			<div id="botones">
+				<a class="boton animacion-cv" id="cv" href="documents/cv.pdf" target="_blank">
+					<img class="contenido-boton animacion-generica" id="icono-description" src="assets/images/description.svg" />
+					<span class="contenido-boton animacion-generica">Ver CV</span>
+				</a>
+
+				<a class="boton animacion-mail" id="mail" href="mailto:gondevs@gmail.com" target="_blank">
+					<img class="contenido-boton animacion-generica" id="icono-send" src="assets/images/send.svg" />
+					<span class="contenido-boton animacion-generica">Enviar mail</span>
+				</a>
+			</div>
+		</div>
+
+		<div class="seccion" id="trabajos">
+			<div class="titulo-seccion">
+				<img class="img-titulo-seccion" src="assets/images/work.svg" />
+				<span>Mis trabajos</span>
+			</div>
+			<div id="grilla-trabajos">
+				<div class="tarjeta-trabajo">
+					<a href="https://gon86.github.io/app/" target="_blank">
+						<img class="img-trabajo" src="assets/images/agenda-mascotera.svg" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Gestiona información y eventos para el cuidado de tus mascotas.</span>
+						<a class="enlace-trabajo" href="https://gon86.github.io/app/" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/tiempos-de-agonia" target="_blank">
+						<img class="img-trabajo" src="assets/images/tiempos-agonia.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Acompaña al personaje de este juego en una aventura dramática y narrativa.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/tiempos-de-agonia" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/ayudante-de-heroes" target="_blank">
+						<img class="img-trabajo" src="assets/images/ayudante-heroes.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Resiste el ataque de los mounstros en este juego tower defense.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/ayudante-de-heroes" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/liga7" target="_blank">
+						<img class="img-trabajo" src="assets/images/liga7.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Asume el rol de entrenador en este simulador de competición futbolística.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/liga7" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/detector-sp" target="_blank">
+						<img class="img-trabajo" src="assets/images/detector-sp.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Aprende sobre arañas de Argentina de una forma divertida.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/detector-sp" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/vinculos-del-pasado" target="_blank">
+						<img class="img-trabajo" src="assets/images/vinculos-pasado.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Descubre el misterio en este juego de ficción interactiva point & click.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/vinculos-del-pasado" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+				<div class="tarjeta-trabajo">
+					<a href="https://concepto.itch.io/truco" target="_blank">
+						<img class="img-trabajo" src="assets/images/truco.png" />
+					</a>
+					<div class="descripcion-trabajo">
+						<span>Juega una partida a este clásico juego de cartas.</span>
+						<a class="enlace-trabajo" href="https://concepto.itch.io/truco" target="_blank">
+							<img class="img-play" src="assets/images/play.svg" />
+							<span class="ver-trabajo">Ver</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="seccion">
+			<div class="titulo-seccion">
+				<img class="img-titulo-seccion" src="assets/images/medal.svg" />
+				<span>Mis estudios <br id="br-experiencia" />y experiencia</span>
+			</div>
+			<div id="estudios-experiencia">
+				<div class="bloque bloque-estudios">
+					<div class="datos-carrera">
+						<span>"Técnico Superior en Programación"</span>
+						<span class="universidad">Universidad Tecnológica Nacional</span>
+					</div>
+					<div class="datos-carrera">
+						<span>"Técnico Superior en Diseño Multimedial"</span>
+						<span class="universidad">Instituto Superior Juan Gutenberg</span>
+					</div>
+				</div>
+				<div class="bloque bloque-experiencia">
+					<div class="datos-puesto">
+						<span>Programador web autónomo</span>
+						<span class="fecha">(Desde 2021)</span>
+					</div>
+					<div class="datos-puesto">
+						<span>Docente en Fundación Gutenberg</span>
+						<span class="fecha">(2018 a 2020)</span>
+					</div>
+					<div class="datos-puesto">
+						<span>Programador en Aconcagua Software Factory</span>
+						<span class="fecha">(2015 a 2017)</span>
+					</div>
+					<div class="datos-puesto">
+						<span>Diseñador multimedial freelance</span>
+						<span class="fecha">(2012 a 2014)</span>
+					</div>
+					<div class="datos-puesto">
+						<span>Diseñador web en Dínamo</span>
+						<span class="fecha">(2010 a 2011)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="seccion" id="habilidades">
+			<div class="titulo-seccion">
+				<img class="img-titulo-seccion" src="assets/images/star.svg" />
+				<span>Mis habilidades</span>
+			</div>
+			<div id="grilla-habilidades">
+				<div>Desarrollo Frontend</div>
+				<div>Javascript</div>
+				<div>React</div>
+				<div>HTML</div>
+				<div>CSS</div>
+				<div>SVG</div>
+				<div>Canvas</div>
+				<div>Browser Games</div>
+				<div>Less</div>
+				<div>Sass</div>
+				<div>Tailwind</div>
+				<div>Bootstrap</div>
+				<div>Jquery</div>
+				<div>PHP</div>
+				<div>MYSQL</div>
+				<div>Expresiones regulares</div>
+				<div>Diseño web</div>
+				<div>Inkscape</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
